@@ -176,6 +176,7 @@ function playerScore() {
     player2ScoreHTML.innerHTML = `score: ${player2Score}`
 }
 playerScore()
+
 turnText.innerHTML = `player 1 turn`;
 function switchPlayer() {
     if (!turn) {
